@@ -68,7 +68,7 @@ void Voxels::Update()
         switch (voxels[i]) 
         {
         case '%': {
-            bool L, R, U, D{false};
+            bool L = 0, R = 0, U = 0, D = 0;
             bool waterD = false;
             Collision(L, R, U, D, i);
             if(D) {
@@ -101,10 +101,10 @@ void Voxels::Update()
                         collLD = true;
                 }
 
-                if (!collRD && posVoxs[i][1] + 1 != Field::weight - 1 && posVoxs[i][0] + 1 != Field::height - 1)
-                    posVoxs[i][1] += 1;
-                else if(!collLD && posVoxs[i][1] - 1 != 0 && posVoxs[i][0] + 1 != Field::height - 1) 
-                    posVoxs[i][1] -= 1;  
+                    if (!collRD && posVoxs[i][1] + 1 != Field::weight - 1 && posVoxs[i][0] + 1 != Field::height - 1 && !R)
+                        posVoxs[i][1] += 1;
+                    else if(!collLD && posVoxs[i][1] - 1 != 0 && posVoxs[i][0] + 1 != Field::height - 1 && !L) 
+                        posVoxs[i][1] -= 1;  
                 /////
             }
             
@@ -115,7 +115,7 @@ void Voxels::Update()
             break;}
 
         case '~': {
-            bool L, R, U, D{false};
+            bool L = 0, R = 0, U = 0, D = 0;
             char retSymb;
             Collision(L, R, U, D, i);
             
