@@ -10,11 +10,11 @@ int main()
 
     while(true)
     {
-        player.Input(voxs);
         gField.FillField();
         gField.Update(voxs);
         gField.Update(player.pos[0], player.pos[1], player.symb);
         voxs.Update();
+        player.Input(voxs);
         gField.Draw(voxs);
         
     }
