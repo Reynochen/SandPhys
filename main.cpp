@@ -1,6 +1,6 @@
 #include "field.hpp"
-#include "Player/Player.hpp"
-#include "voxels/physVoxel.hpp"
+#include "Player.hpp"
+#include "physVoxel.hpp"
 
 int main()
 {

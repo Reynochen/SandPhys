@@ -1,0 +1,3 @@
+C:/Users/Jopa/Desktop/SandPhys/build/CMakeFiles/SandPhys.dir
+C:/Users/Jopa/Desktop/SandPhys/build/CMakeFiles/edit_cache.dir
+C:/Users/Jopa/Desktop/SandPhys/build/CMakeFiles/rebuild_cache.dir

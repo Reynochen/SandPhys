@@ -1,0 +1,10 @@
+# ninja log v5
+4	120	6665497702930284	CMakeFiles/SandPhys.dir/main.cpp.obj	90762005c926056d
+8	129	6665497703020044	CMakeFiles/SandPhys.dir/src/Player.cpp.obj	3c13a22047d24d34
+0	199	6665497703718179	CMakeFiles/SandPhys.dir/src/physVoxel.cpp.obj	1bb99db3f4b1b423
+3	1556	6665497717302991	CMakeFiles/SandPhys.dir/src/field.cpp.obj	44d8d1923aa1203
+1560	1684	6665497718542339	SandPhys.exe	abf7d4fae5efac76
+4	148	6665498277261303	CMakeFiles/SandPhys.dir/src/physVoxel.cpp.obj	1bb99db3f4b1b423
+6	76	6665498575857203	CMakeFiles/SandPhys.dir/src/Player.cpp.obj	3c13a22047d24d34
+4	1508	6665498590178807	CMakeFiles/SandPhys.dir/src/field.cpp.obj	44d8d1923aa1203
+1509	1619	6665498591244672	SandPhys.exe	abf7d4fae5efac76
